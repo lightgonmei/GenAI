@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Flask cache files
+instance/
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+*.env
+
+# Logs and databases
+logs/
+*.log
+*.sqlite
+
+# macOS files
+.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# Pip dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+
+# Docker
+docker-compose.override.yml
+
+# PyCharm specific
+*.iml
